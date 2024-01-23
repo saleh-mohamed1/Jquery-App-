@@ -1,0 +1,82 @@
+:root{
+    --main-color: rgba(0, 0, 0, .6);
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/event.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position :center center ;
+    color: white;
+    position: relative;
+}
+.layer{
+    background-color: var(--main-color);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+.styleUl a {
+    font-size: 32px;
+    color: #fff;
+    display: block;
+    
+}
+
+.styleUl{
+        overflow-x: hidden;
+        width: 0;
+        z-index: 999;
+}
+#markMove{
+    margin-left:0 ;
+}
+/* section singer */
+.singer{
+    background-color: rgba(214, 24, 30, 0.6);
+    width: 35%;
+    margin: 100px;
+    cursor: pointer;
+}
+.disignLorem{
+    display: none;
+}
+.counterDays{
+    height: 40vh;
+    background-image: url(../images/join.jpg) ;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.layerjoin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: var(--main-color);
+}
+/* section join info */
+.social-list > i{
+    border: 1px solid gray;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+/* cutdown */
+#getting-started {
+    font-size: 40px;
+}
+/* endcutdown*/
